@@ -1,0 +1,49 @@
+.statistics {
+    position: relative;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(14, 27, 216);
+    border-radius: 20px;
+  }
+  
+  .title {
+    margin: 0px;
+    padding-top: 40px;
+    text-align: center;
+    color: #000000;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;  
+    font-size: 40px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px rgb(255, 0, 0), 0 3px rgb(0, 60, 255);
+  }
+  
+  .list {
+    position: absolute;
+    bottom: 0px;
+    margin-left: -46%;
+    display: inline-flex;
+    padding: 0px;
+  }
+  .list li {
+    padding: 20px;
+    display: grid;
+    border: 2px solid rgb(231, 0, 0);
+    border-radius: 20%;
+    color:rgb(231, 0, 0)
+    
+  }
+
+  .item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    flex-direction: column;
+  }

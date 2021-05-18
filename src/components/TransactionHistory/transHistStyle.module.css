@@ -1,0 +1,16 @@
+.history {
+    margin: 20px auto 0px auto;
+    width: 300px;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding: 20px 40px;
+    border: 1px solid black;
+    background:rgb(146, 146, 146)
+
+  }
+  th {
+    background: rgb(33, 170, 255);
+  }
+ 
